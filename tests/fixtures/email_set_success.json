@@ -1,0 +1,16 @@
+{
+  "methodResponses": [
+    [
+      "Email/set",
+      {
+        "accountId": "u1234abcd",
+        "oldState": "1",
+        "newState": "2",
+        "updated": {"M0001": null},
+        "notUpdated": null
+      },
+      "s0"
+    ]
+  ],
+  "sessionState": "abc123"
+}

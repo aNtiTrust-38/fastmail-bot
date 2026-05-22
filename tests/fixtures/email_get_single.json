@@ -1,0 +1,28 @@
+{
+  "methodResponses": [
+    [
+      "Email/get",
+      {
+        "accountId": "u1234abcd",
+        "state": "es1",
+        "list": [
+          {
+            "id": "M0001",
+            "subject": "Welcome",
+            "from": [{"name": "Bob", "email": "bob@example.com"}],
+            "to": [{"name": "Sam", "email": "sam@example.com"}],
+            "receivedAt": "2026-05-19T10:00:00Z",
+            "mailboxIds": {"MB0001": true},
+            "textBody": [{"partId": "1", "type": "text/plain", "size": 42}],
+            "bodyValues": {
+              "1": {"value": "Hello Sam,\n\nThis is the body.\n\n— Bob", "isEncodingProblem": false, "isTruncated": false}
+            }
+          }
+        ],
+        "notFound": []
+      },
+      "g0"
+    ]
+  ],
+  "sessionState": "abc123"
+}

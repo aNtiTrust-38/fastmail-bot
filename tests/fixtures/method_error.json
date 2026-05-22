@@ -1,0 +1,10 @@
+{
+  "methodResponses": [
+    [
+      "error",
+      {"type": "accountNotFound", "description": "The requested account does not exist."},
+      "m0"
+    ]
+  ],
+  "sessionState": "abc123"
+}

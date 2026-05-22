@@ -1,0 +1,20 @@
+{
+  "methodResponses": [
+    [
+      "Mailbox/get",
+      {
+        "accountId": "u1234abcd",
+        "state": "mb-state-1",
+        "list": [
+          {"id": "MB0001", "name": "Inbox", "role": "inbox", "totalEmails": 42, "unreadEmails": 7, "parentId": null, "sortOrder": 0},
+          {"id": "MB0002", "name": "Archive", "role": "archive", "totalEmails": 1000, "unreadEmails": 0, "parentId": null, "sortOrder": 1},
+          {"id": "MB0003", "name": "Trash", "role": "trash", "totalEmails": 5, "unreadEmails": 0, "parentId": null, "sortOrder": 2},
+          {"id": "MB0004", "name": "Newsletters", "role": null, "totalEmails": 200, "unreadEmails": 12, "parentId": null, "sortOrder": 3}
+        ],
+        "notFound": []
+      },
+      "m0"
+    ]
+  ],
+  "sessionState": "abc123"
+}

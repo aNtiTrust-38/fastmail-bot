@@ -1,0 +1,44 @@
+{
+  "methodResponses": [
+    [
+      "Email/query",
+      {
+        "accountId": "u1234abcd",
+        "queryState": "qs1",
+        "canCalculateChanges": false,
+        "position": 0,
+        "ids": ["M0001", "M0002"],
+        "total": 2
+      },
+      "q0"
+    ],
+    [
+      "Email/get",
+      {
+        "accountId": "u1234abcd",
+        "state": "es1",
+        "list": [
+          {
+            "id": "M0001",
+            "subject": "Welcome",
+            "from": [{"name": "Bob", "email": "bob@example.com"}],
+            "receivedAt": "2026-05-19T10:00:00Z",
+            "preview": "Hello there!",
+            "mailboxIds": {"MB0001": true}
+          },
+          {
+            "id": "M0002",
+            "subject": "Newsletter",
+            "from": [{"name": "News", "email": "news@example.com"}],
+            "receivedAt": "2026-05-19T09:00:00Z",
+            "preview": "Weekly digest",
+            "mailboxIds": {"MB0001": true, "MB0004": true}
+          }
+        ],
+        "notFound": []
+      },
+      "g0"
+    ]
+  ],
+  "sessionState": "abc123"
+}

@@ -1,0 +1,18 @@
+{
+  "methodResponses": [
+    [
+      "Email/set",
+      {
+        "accountId": "u1234abcd",
+        "oldState": "1",
+        "newState": "1",
+        "updated": null,
+        "notUpdated": {
+          "M0001": {"type": "notFound", "description": "Email not found"}
+        }
+      },
+      "s0"
+    ]
+  ],
+  "sessionState": "abc123"
+}
